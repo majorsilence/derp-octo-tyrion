@@ -1,4 +1,7 @@
+#include <iostream>
 #include "CApp.h"
+#include "Filepaths.h"
+
 
 bool CApp::OnInit(){
 
@@ -10,6 +13,13 @@ bool CApp::OnInit(){
                                          32, SDL_HWSURFACE|SDL_DOUBLEBUF)) == NULL){
         return false;
     }
+
+
+    std::string path = "assets" + PATH_SEPARATOR + "images" + PATH_SEPARATOR + "myimage.bmp";
+    if((Surf_Test = CSurface::OnLoad( (char*)path.c_str())) == NULL){
+        return false;
+    }
+
 
     return true;
 }

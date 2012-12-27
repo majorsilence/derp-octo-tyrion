@@ -42,6 +42,11 @@
 		<Unit filename="CApp_OnInit.cpp" />
 		<Unit filename="CApp_OnLoop.cpp" />
 		<Unit filename="CApp_OnRender.cpp" />
+		<Unit filename="CSurface.cpp" />
+		<Unit filename="CSurface.h" />
+		<Unit filename="Filepaths" />
+		<Unit filename="Filepaths.h" />
+		<Unit filename="assets/images/myimage.bmp" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

@@ -2,6 +2,7 @@
 #define CAPP_H_INCLUDED
 
 #include <SDL/SDL.h>
+#include "CSurface.h"
 
 class CApp{
 
@@ -9,6 +10,8 @@ class CApp{
         bool Running;
 
         SDL_Surface* Surf_Display;
+
+        SDL_Surface* Surf_Test;
 
     public:
         CApp();
