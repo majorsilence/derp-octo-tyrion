@@ -2,9 +2,11 @@
 #define CAPP_H_INCLUDED
 
 #include <SDL/SDL.h>
+
+#include "CEvent.h"
 #include "CSurface.h"
 
-class CApp{
+class CApp: public CEvent{
 
     private:
         bool Running;
@@ -21,6 +23,8 @@ class CApp{
         bool OnInit();
 
         void OnEvent(SDL_Event* Event);
+
+        void OnExit();
 
         // All Game Logic
         void OnLoop();
