@@ -9,17 +9,30 @@ bool CApp::OnInit(){
         return false;
     }
 
-    if ((Surf_Display = SDL_SetVideoMode(640, 480,
+    if ((Surf_Display = SDL_SetVideoMode(600, 600,
                                          32, SDL_HWSURFACE|SDL_DOUBLEBUF)) == NULL){
         return false;
     }
 
 
-    std::string path = "assets" + PATH_SEPARATOR + "images" + PATH_SEPARATOR + "myimage.bmp";
-    if((Surf_Test = CSurface::OnLoad( (char*)path.c_str())) == NULL){
+    std::string path = "assets" + PATH_SEPARATOR + "images" + PATH_SEPARATOR;
+    if((Surf_Grid = CSurface::OnLoad( (char*)(path+"grid.bmp").c_str())) == NULL){
         return false;
     }
 
+    if((Surf_X = CSurface::OnLoad( (char*)(path+"x.bmp").c_str())) == NULL){
+        return false;
+    }
+
+    if((Surf_O = CSurface::OnLoad( (char*)(path+"o.bmp").c_str())) == NULL){
+        return false;
+    }
+
+
+    CSurface::Transparent(Surf_X, 255, 0, 253);
+    CSurface::Transparent(Surf_O, 255, 0, 253);
+
+    Reset();
 
     return true;
 }

@@ -1,8 +1,8 @@
 # depslib dependency file v1.0
-1356645024 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp.cpp
+1356715072 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp.cpp
 	"CApp.h"
 
-1356663328 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp.h
+1356715081 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp.h
 	<SDL/SDL.h>
 	"CEvent.h"
 	"CSurface.h"
@@ -10,16 +10,16 @@
 1356660805 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CEvent.h
 	<SDL/SDL.h>
 
-1356647811 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CSurface.h
+1356712215 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CSurface.h
 	<SDL/SDL.h>
 
-1356645074 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp_OnCleanup.cpp
+1356711485 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp_OnCleanup.cpp
 	"CApp.h"
 
-1356663395 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp_OnEvent.cpp
+1356714862 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp_OnEvent.cpp
 	"CApp.h"
 
-1356646940 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp_OnInit.cpp
+1356712831 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp_OnInit.cpp
 	<iostream>
 	"CApp.h"
 	"Filepaths.h"
@@ -30,13 +30,13 @@
 1356641475 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp_OnLoop.cpp
 	"CApp.h"
 
-1356648219 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp_OnRender.cpp
+1356715116 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CApp_OnRender.cpp
 	"CApp.h"
 
 1356663167 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CEvent.cpp
 	"CEvent.h"
 
-1356648118 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CSurface.cpp
+1356712348 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/CSurface.cpp
 	"CSurface.h"
 
 1356640590 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFour/main.cpp
