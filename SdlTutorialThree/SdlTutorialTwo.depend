@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1356645024 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/CApp.cpp
+	"CApp.h"
+
+1356645991 /home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/CApp.h
+	<SDL/SDL.h>
+	"CSurface.h"
+
+1356645074 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1356642563 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/CApp_OnEvent.cpp
+	"CApp.h"
+
+1356646940 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/CApp_OnInit.cpp
+	<iostream>
+	"CApp.h"
+	"Filepaths.h"
+
+1356641475 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/CApp_OnLoop.cpp
+	"CApp.h"
+
+1356647863 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/CApp_OnRender.cpp
+	"CApp.h"
+
+1356640590 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/main.cpp
+	"CApp.h"
+
+1356648118 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/CSurface.cpp
+	"CSurface.h"
+
+1356647811 /home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/CSurface.h
+	<SDL/SDL.h>
+
+1356647126 /home/peter/Projects/derp-octo-tyrion/SdlTutorialTwo/Filepaths.h
+	<iostream>
+
