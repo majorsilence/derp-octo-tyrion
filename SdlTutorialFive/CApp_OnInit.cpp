@@ -15,11 +15,15 @@ bool CApp::OnInit(){
     }
 
 
-    std::string path = "assets" + PATH_SEPARATOR + "images" + PATH_SEPARATOR + "myimage.bmp";
+    std::string path = "assets" + PATH_SEPARATOR + "images" + PATH_SEPARATOR + "yoshi.bmp";
     if((Surf_Test = CSurface::OnLoad( (char*)path.c_str())) == NULL){
         return false;
     }
 
+    //CSurface::Transparent(Surf_Test, 255, 0, 255);
+
+    Anim_Yoshi.MaxFrames = 8;
+    //Anim_Yoshi.Oscillate = true;
 
     return true;
 }
