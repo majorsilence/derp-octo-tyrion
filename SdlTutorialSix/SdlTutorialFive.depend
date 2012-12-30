@@ -105,3 +105,6 @@
 1356878330 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CApp_OnRender.cpp
 	"CApp.h"
 
+1356878576 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CEntity.cpp
+	"CEntity.h"
+
