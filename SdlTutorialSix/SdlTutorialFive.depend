@@ -1,0 +1,107 @@
+# depslib dependency file v1.0
+1356645024 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CApp.cpp
+	"CApp.h"
+
+1356747848 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CApp.h
+	<SDL/SDL.h>
+	"CAnimation.h"
+	"CEvent.h"
+	"CSurface.h"
+
+1356660805 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CEvent.h
+	<SDL/SDL.h>
+
+1356748250 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CSurface.h
+	<SDL/SDL.h>
+
+1356645074 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1356663395 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CApp_OnEvent.cpp
+	"CApp.h"
+
+1356646940 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CApp_OnInit.cpp
+	<iostream>
+	"CApp.h"
+	"Filepaths.h"
+
+1356647126 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/Filepaths.h
+	<iostream>
+
+1356747904 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CApp_OnLoop.cpp
+	"CApp.h"
+
+1356748012 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CApp_OnRender.cpp
+	"CApp.h"
+
+1356663167 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CEvent.cpp
+	"CEvent.h"
+
+1356748228 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CSurface.cpp
+	"CSurface.h"
+
+1356640590 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/main.cpp
+	"CApp.h"
+
+1356747491 /home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CAnimation.h
+	<SDL/SDL.h>
+
+1356747339 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialFive/CAnimation.cpp
+	"CAnimation.h"
+
+1356747339 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CAnimation.cpp
+	"CAnimation.h"
+
+1356747491 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CAnimation.h
+	<SDL/SDL.h>
+
+1356878484 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CApp.cpp
+	"CApp.h"
+
+1356878144 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CApp.h
+	<SDL/SDL.h>
+	"CAnimation.h"
+	"CEvent.h"
+	"CSurface.h"
+	"CEntity.h"
+
+1356660805 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CEvent.h
+	<SDL/SDL.h>
+
+1356748250 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CSurface.h
+	<SDL/SDL.h>
+
+1356878502 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CEntity.h
+	<vector>
+	"CAnimation.h"
+	"CSurface.h"
+
+1356663395 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CApp_OnEvent.cpp
+	"CApp.h"
+
+1356663167 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CEvent.cpp
+	"CEvent.h"
+
+1356748228 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CSurface.cpp
+	"CSurface.h"
+
+1356640590 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/main.cpp
+	"CApp.h"
+
+1356878465 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1356878535 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CApp_OnInit.cpp
+	<iostream>
+	"CApp.h"
+	"Filepaths.h"
+
+1356647126 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/Filepaths.h
+	<iostream>
+
+1356878237 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CApp_OnLoop.cpp
+	"CApp.h"
+
+1356878330 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSix/CApp_OnRender.cpp
+	"CApp.h"
+
