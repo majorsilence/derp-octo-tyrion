@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1356642436 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialOne/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1356641960 /home/peter/Projects/derp-octo-tyrion/SdlTutorialOne/CApp.h
+	<SDL/SDL.h>
+
+1356642498 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialOne/CApp.cpp
+	"CApp.h"
+
+1356642563 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialOne/CApp_OnEvent.cpp
+	"CApp.h"
+
+1356642142 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialOne/CApp_OnInit.cpp
+	"CApp.h"
+
+1356641475 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialOne/CApp_OnLoop.cpp
+	"CApp.h"
+
+1356641505 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialOne/CApp_OnRender.cpp
+	"CApp.h"
+
+1356640590 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialOne/main.cpp
+	"CApp.h"
+
