@@ -19,6 +19,7 @@ class CArea {
 
         void OnCleanup();
 
+        int GetAreaSize();
 
     private:
         /// We are going to assume that areas will

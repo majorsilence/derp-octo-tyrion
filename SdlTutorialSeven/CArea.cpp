@@ -105,4 +105,8 @@ void CArea::OnCleanup(){
 
 }
 
+int CArea::GetAreaSize(){
+    return AreaSize;
+}
+
 
