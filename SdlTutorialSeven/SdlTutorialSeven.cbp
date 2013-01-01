@@ -33,7 +33,9 @@
 			<Add option="`sdl-config --cflags`" />
 		</Compiler>
 		<Linker>
-			<Add option="`sdl-config --libs`" />
+			<Add library="SDLmain"/>
+			<Add library="SDL_image"/>
+			<Add library="SDL"/>
 		</Linker>
 		<Unit filename="CAnimation.cpp" />
 		<Unit filename="CAnimation.h" />
@@ -44,14 +46,26 @@
 		<Unit filename="CApp_OnInit.cpp" />
 		<Unit filename="CApp_OnLoop.cpp" />
 		<Unit filename="CApp_OnRender.cpp" />
+		<Unit filename="CArea.cpp" />
+		<Unit filename="CArea.h" />
+		<Unit filename="CCamera.cpp" />
+		<Unit filename="CCamera.h" />
 		<Unit filename="CEntity.cpp" />
 		<Unit filename="CEntity.h" />
 		<Unit filename="CEvent.cpp" />
 		<Unit filename="CEvent.h" />
+		<Unit filename="CMap.cpp" />
+		<Unit filename="CMap.h" />
 		<Unit filename="CSurface.cpp" />
 		<Unit filename="CSurface.h" />
+		<Unit filename="CTile.cpp" />
+		<Unit filename="CTile.h" />
+		<Unit filename="Define.h" />
 		<Unit filename="Filepaths.h" />
 		<Unit filename="assets/images/yoshi.bmp" />
+		<Unit filename="assets/maps/1.area" />
+		<Unit filename="assets/maps/1.map" />
+		<Unit filename="assets/tilesets/1.png" />
 		<Unit filename="main.cpp" />
 		<Extensions>
 			<code_completion />

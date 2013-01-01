@@ -2,6 +2,7 @@
 #define CSURFACE_H_INCLUDED
 
 #include <SDL/SDL.h>
+#include <SDL/SDL_image.h>
 
 
 class CSurface {

@@ -9,31 +9,18 @@ bool CApp::OnInit(){
         return false;
     }
 
-    if ((Surf_Display = SDL_SetVideoMode(640, 480,
+    if ((Surf_Display = SDL_SetVideoMode(WWIDTH, WHEIGHT,
                                          32, SDL_HWSURFACE|SDL_DOUBLEBUF)) == NULL){
         return false;
     }
 
 
-    std::string path = "assets" + PATH_SEPARATOR + "images" + PATH_SEPARATOR + "yoshi.bmp";
-
-    if (Entity1.OnLoad((char*)path.c_str(), 64, 64, 8) == false){
+    if(CArea::AreaControl.OnLoad("./assets/maps/1.area") == false){
         return false;
     }
 
-    if(Entity2.OnLoad((char*)path.c_str(), 64, 64, 8) == false){
-        return false;
-    }
+    SDL_EnableKeyRepeat(1, SDL_DEFAULT_REPEAT_INTERVAL / 3);
 
-    if(Entity3.OnLoad((char*)path.c_str(), 64, 64, 8) == false){
-        return false;
-    }
-
-    Entity2.X = 100;
-    Entity3.X = 150;
-    CEntity::EntityList.push_back(&Entity1);
-    CEntity::EntityList.push_back(&Entity2);
-    CEntity::EntityList.push_back(&Entity3);
 
     return true;
 }

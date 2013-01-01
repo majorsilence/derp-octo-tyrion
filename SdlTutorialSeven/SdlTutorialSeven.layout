@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="CApp.cpp" open="1" top="0" tabpos="18">
+		<Cursor position="60" topLine="0" />
+	</File>
+	<File name="CApp.h" open="1" top="0" tabpos="6">
+		<Cursor position="298" topLine="8" />
+	</File>
+	<File name="CApp_OnCleanup.cpp" open="1" top="0" tabpos="8">
+		<Cursor position="45" topLine="0" />
+	</File>
+	<File name="CApp_OnEvent.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="574" topLine="5" />
+	</File>
+	<File name="CApp_OnInit.cpp" open="1" top="0" tabpos="10">
+		<Cursor position="489" topLine="0" />
+	</File>
+	<File name="CApp_OnRender.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="323" topLine="1" />
+	</File>
+	<File name="CArea.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="1545" topLine="70" />
+	</File>
+	<File name="CArea.h" open="1" top="0" tabpos="1">
+		<Cursor position="557" topLine="7" />
+	</File>
+	<File name="CCamera.cpp" open="1" top="0" tabpos="11">
+		<Cursor position="138" topLine="4" />
+	</File>
+	<File name="CCamera.h" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="2" />
+	</File>
+	<File name="CEvent.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="215" />
+	</File>
+	<File name="CMap.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="1225" topLine="41" />
+	</File>
+	<File name="CMap.h" open="1" top="0" tabpos="16">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="CSurface.cpp" open="1" top="1" tabpos="17">
+		<Cursor position="318" topLine="0" />
+	</File>
+	<File name="CSurface.h" open="1" top="0" tabpos="14">
+		<Cursor position="106" topLine="2" />
+	</File>
+	<File name="CTile.cpp" open="1" top="0" tabpos="13">
+		<Cursor position="84" topLine="0" />
+	</File>
+	<File name="CTile.h" open="0" top="0" tabpos="0">
+		<Cursor position="81" topLine="0" />
+	</File>
+	<File name="Define.h" open="1" top="0" tabpos="12">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="Filepaths.h" open="1" top="0" tabpos="15">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="assets/maps/1.area" open="1" top="0" tabpos="3">
+		<Cursor position="23" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

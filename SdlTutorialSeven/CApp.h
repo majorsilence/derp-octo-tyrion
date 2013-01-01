@@ -3,10 +3,14 @@
 
 #include <SDL/SDL.h>
 
-#include "CAnimation.h"
+#include "Define.h"
+#include "CArea.h"
+#include "CCamera.h"
+#include "CEntity.h"
 #include "CEvent.h"
 #include "CSurface.h"
-#include "CEntity.h"
+
+
 
 class CApp: public CEvent{
 
@@ -14,10 +18,6 @@ class CApp: public CEvent{
         bool Running;
 
         SDL_Surface* Surf_Display;
-
-        CEntity Entity1;
-        CEntity Entity2;
-        CEntity Entity3;
 
     public:
         CApp();
@@ -27,6 +27,8 @@ class CApp: public CEvent{
         bool OnInit();
 
         void OnEvent(SDL_Event* Event);
+
+        void OnKeyDown(SDLKey sym, SDLMod mod, Uint16 unicode);
 
         void OnExit();
 

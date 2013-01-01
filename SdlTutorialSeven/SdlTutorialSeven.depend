@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1356747339 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CAnimation.cpp
+	"CAnimation.h"
+
+1356747491 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CAnimation.h
+	<SDL/SDL.h>
+
+1356878484 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CApp.cpp
+	"CApp.h"
+
+1356997477 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CApp.h
+	<SDL/SDL.h>
+	"Define.h"
+	"CArea.h"
+	"CCamera.h"
+	"CEntity.h"
+	"CEvent.h"
+	"CSurface.h"
+
+1356981419 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/Define.h
+
+1356660805 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CEvent.h
+	<SDL/SDL.h>
+
+1356997183 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CSurface.h
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+
+1356878502 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CEntity.h
+	<vector>
+	"CAnimation.h"
+	"CSurface.h"
+
+1356995733 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CArea.h
+	<vector>
+	"CMap.h"
+
+1356997248 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CMap.h
+	<SDL/SDL.h>
+	<vector>
+	"CTile.h"
+	"CSurface.h"
+
+1356997001 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CTile.cpp
+	"CTile.h"
+
+1356981909 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CTile.h
+	"Define.h"
+
+1356994702 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CCamera.h
+	<SDL/SDL.h>
+	"Define.h"
+
+1356878237 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CApp_OnLoop.cpp
+	"CApp.h"
+
+1356878576 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CEntity.cpp
+	"CEntity.h"
+
+1356663167 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CEvent.cpp
+	"CEvent.h"
+
+1356997075 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CSurface.cpp
+	"CSurface.h"
+
+1356640590 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/main.cpp
+	"CApp.h"
+
+1356995537 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CApp_OnCleanup.cpp
+	"CApp.h"
+
+1356995782 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CApp_OnEvent.cpp
+	"CApp.h"
+
+1356997443 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CApp_OnInit.cpp
+	<iostream>
+	"CApp.h"
+	"Filepaths.h"
+
+1356647126 /home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/Filepaths.h
+	<iostream>
+
+1356995592 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CApp_OnRender.cpp
+	"CApp.h"
+
+1356994339 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CArea.cpp
+	"CArea.h"
+
+1356995829 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CCamera.cpp
+	"CCamera.h"
+
+1356997001 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CTile.cpp
+	"CTile.h"
+
+1356996038 source:/home/peter/Projects/derp-octo-tyrion/SdlTutorialSeven/CMap.cpp
+	"CMap.h"
+
