@@ -70,8 +70,17 @@ void CArea::OnRender(SDL_Surface* Surf_Display, int CameraX, int CameraY){
     // visible in the area.  At 640x480
     // only 4 maps are able to be shown at most
     // see http://www.sdltutorials.com/sdl-maps
-    for (int i = 0; i < 4; i++){
-        int ID = FirstID + ((i/2) * AreaSize) + (i%2);
+
+
+    //for (int i = 0; i < 4; i++){
+    //    int ID = FirstID + ((i/2) * AreaSize) + (i%2);
+
+    // Draw as many maps as can fit on screen
+    int nHorizontalMaps = (WWIDTH/(MAP_WIDTH*TILE_SIZE)) + 2;
+    int nVerticalMaps = (WHEIGHT/(MAP_HEIGHT*TILE_SIZE)) + 2;
+
+    for(int i = 0; i < nHorizontalMaps*nVerticalMaps; i++) {
+        int ID = FirstID + ((i / nHorizontalMaps) *AreaSize) + (i % nHorizontalMaps);
 
         if (ID <0 || ID >= MapList.size()){
             continue;
